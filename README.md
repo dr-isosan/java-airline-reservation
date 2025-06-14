@@ -1,4 +1,4 @@
-# ✈️ Airline Reservation System
+# ✈️ Airline Reservation System-BIL 304 Operating Systems Project
 
 A comprehensive airline reservation system built with Java, demonstrating advanced concurrent programming concepts, modern software development practices, and enhanced date-based flight management.
 
