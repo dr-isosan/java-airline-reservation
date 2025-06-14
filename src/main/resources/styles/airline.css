@@ -1,0 +1,97 @@
+/* Modern Airline Reservation System Styles */
+
+.root {
+  -fx-background-color: linear-gradient(to bottom, #f0f8ff, #e6f3ff);
+  -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.label {
+  -fx-text-fill: #2c3e50;
+  -fx-font-weight: normal;
+}
+
+.button {
+  -fx-background-color: linear-gradient(to bottom, #3498db, #2980b9);
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-background-radius: 5;
+  -fx-border-radius: 5;
+  -fx-padding: 8 16 8 16;
+  -fx-cursor: hand;
+}
+
+.button:hover {
+  -fx-background-color: linear-gradient(to bottom, #52a8e8, #3498db);
+  -fx-scale-x: 1.05;
+  -fx-scale-y: 1.05;
+}
+
+.button:pressed {
+  -fx-background-color: linear-gradient(to bottom, #2980b9, #1f5f8b);
+}
+
+.table-view {
+  -fx-background-color: white;
+  -fx-border-color: #bdc3c7;
+  -fx-border-width: 1;
+  -fx-border-radius: 5;
+}
+
+.table-view .column-header {
+  -fx-background-color: linear-gradient(to bottom, #34495e, #2c3e50);
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-padding: 10;
+}
+
+.table-row-cell {
+  -fx-background-color: white;
+  -fx-border-color: transparent transparent #ecf0f1 transparent;
+  -fx-border-width: 0 0 1 0;
+}
+
+.table-row-cell:selected {
+  -fx-background-color: #e8f4fd;
+  -fx-text-fill: #2c3e50;
+}
+
+.table-row-cell:odd {
+  -fx-background-color: #f8f9fa;
+}
+
+.combo-box {
+  -fx-background-color: white;
+  -fx-border-color: #bdc3c7;
+  -fx-border-radius: 3;
+  -fx-padding: 5;
+}
+
+.date-picker {
+  -fx-background-color: white;
+  -fx-border-color: #bdc3c7;
+  -fx-border-radius: 3;
+}
+
+.text-field {
+  -fx-background-color: white;
+  -fx-border-color: #bdc3c7;
+  -fx-border-radius: 3;
+  -fx-padding: 8;
+}
+
+.text-field:focused {
+  -fx-border-color: #3498db;
+  -fx-border-width: 2;
+}
+
+.separator {
+  -fx-background-color: #bdc3c7;
+}
+
+.dialog-pane {
+  -fx-background-color: #f8f9fa;
+}
+
+.alert {
+  -fx-background-color: white;
+}
